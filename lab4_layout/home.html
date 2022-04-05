@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+
+    </div>
+
+    <header>
+        <h1>Layout Sederhana</h1>
+    </header>
+    <nav>
+        <a href="home.html" class="active">Home</a>
+        <a href="artikel.html">Artikel</a>
+        <a href="about.html">Kontak</a>
+    </nav>
+    <section id="hero"></section>
+    <section id="wrapper">
+        <section id="main"></section>
+        <aside id="sidebar"></aside>
+    </section>
+    <section id="hero">
+        <h1>Hello World</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur doloremque quasi, cum non officiis molestiae eos cumque ea itaque similique dolor esse, commodi error saepe, eveniet fugiat excepturi ullam nesciunt.</p>
+        <a href="home.html" class="btn btn-large">Learn more &raquo;</a>
+    </section>
+
+    <aside id="sidebar">
+        <div class="widget-box">
+            <h3 class="title">Widget Header</h3>
+            <ul>
+                <li><a href="#">Widget Link</a></li>
+                <li><a href="#">Widget Link</a></li>
+                <li><a href="#">Widget Link</a></li>
+                <li><a href="#">Widget Link</a></li>
+                <li><a href="#">Widget Link</a></li>
+            </ul>
+        </div>
+        <div class="widget-box">
+            <h3 class="title">Widget Text</h3>
+            <p>Vestibulum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est amet repudiandae a minima assumenda maxime maiores quisquam veniam velit officiis pariatur tenetur, sunt eum nulla blanditiis, repellendus cum, in similique?</p>
+        </div>
+    </aside>
+
+    <section id="main">
+        <div class="row">
+            <div class="box">
+                <img src="https://dummyimage.com/120/db7d25/fff.png" alt="" class="image-circle">
+                <h3>Heading</h3>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod</p>
+                <a href="#" class="btn btn-default">View detail</a>
+            </div>
+            <div class="box">
+                <img src="https://dummyimage.com/120/3e73e6/fff.png" alt="" class="image-circle">
+                <h3>Heading</h3>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod</p>
+                <a href="#" class="btn btn-default">View detail</a>
+            </div>
+            <div class="box">
+                <img src="https://dummyimage.com/120/71e6d4/fff.png" alt="" class="image-circle">
+                <h3>Heading</h3>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod</p>
+                <a href="#" class="btn btn-default">View detail</a>
+            </div>
+        </div>
+    </section>
+
+    <hr class="divier" />
+    <article class="entry">
+        <h2>Frist featurette heading.</h2>
+        <img src="https://dummyimage.com/150/7b8a70/fff.png" alt="">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam tempore quas animi inventore obcaecati ex veniam voluptatibus ut modi, doloremque, officiis quos, est consectetur illo reprehenderit quisquam error. Eligendi, est.</p>
+    </article>
+    <hr class="divider" />
+    <article class="entry">
+        <h2>Frist featurette heading.</h2>
+        <img src="https://dummyimage.com/150/7b8a70/fff.png" alt="" class="right-img">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quo velit reiciendis repellendus sunt explicabo dolorum officiis commodi, facere, quas voluptates, in minus recusandae illum deleniti blanditiis! Odit, tempora. Pariatur?</p>
+    </article>
+
+    <div class="about">
+        <div>
+        <h1 class="title">About me</h1>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Necessitatibus quis odit a labore dicta, error pariatur ipsum reprehenderit provident temporibus nulla eaque voluptas sunt at vero dignissimos recusandae architecto? Fuga.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo totam quo numquam illum autem, atque blanditiis quidem aliquam, facere architecto earum excepturi delectus molestias ipsam odit. Temporibus reprehenderit minus perspiciatis.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque totam veritatis laborum dicta voluptatum nulla error repudiandae corrupti eum exercitationem explicabo fuga aspernatur repellendus debitis accusamus autem, doloribus doloremque eaque!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio porro quasi quaerat fugiat incidunt iusto culpa. Asperiores corporis expedita fugit voluptatum, at, qui deserunt ratione quaerat veritatis similique illo deleniti!</p><br>
+    </div>
+    <div>
+        <img class="avatar" src="foto.png" >
+    </div>
+    </div>
+
+    <div class="Kontak body">
+        <h1>Contact</h1>
+        <form class="Kontak-form-class">
+            <div class="kontak-form-group">
+                <label for="Nama" class="Kontak label">Nama</label>
+                <div class="kontak-input-group">
+                    <input type="text" id="Name" name="Name" class="kontak-form-control" required>
+                </div>
+            </div>
+
+            <div class="kontak-form-group">
+                <label for="Name" class="kontak-label">Email</label>
+                <div class="kontak-input-group">
+                    <input type="text" id="Name" name="Name" class="kontak-form-control" required>
+                </div>
+            </div>
+
+            <div class="kontak-form-group">
+                <label for="Message" class="kontak-label">Message</label>
+                <div class="kontak-input-group">
+                    <textarea id="Message" name="Message"  class="kontak-form-control" rows="6" maxlength="3000" required></textarea>
+
+                </div>
+            </div>
+
+            <div class="kontak-form-group">
+                <button type="submit" class="kontak-btn kontak-btn-primay kontak-btn-lg kontak-btn-block ">Send Message</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2022 - Universitas Pelita Bangsa</p>
+    </footer>
+</body>
+</html>
